@@ -22,7 +22,19 @@ Tasks:
   - Built ModuleGrid.jsx with 6 module cards
   - Built placeholder stubs: About.jsx, Certificates.jsx, Contact.jsx
 
+## Thu May 14, 2026
+Start: 3:03 PM MST
+Stop: 3:33 PM MST
+Total: 30 min (on time ✅)
+
+Tasks:
+  - Built About.jsx ✅
+  - Built Education.jsx ✅
+  - Planned Contact.jsx revival from time_and_space (SES/Nodemailer already wired)
+  - Restructured layout plan: Contact gets own section, Footer handles GitHub/LinkedIn
+  - Updated App.js import order
+
 ## Project Status
-Components: Hero ✅ Nav ✅ FeaturedProjects ✅ ModuleGrid ✅ About ⬜ Certificates ⬜ Contact ⬜ Footer ⬜
+Components: Hero ✅ Nav ✅ FeaturedProjects ✅ ModuleGrid ✅ About ✅ Education ✅ Certificates ⬜ Contact ⬜ Footer ⬜
 Styling: ⬜
 Deployment: ⬜
