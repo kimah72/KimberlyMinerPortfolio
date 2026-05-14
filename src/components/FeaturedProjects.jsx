@@ -13,14 +13,14 @@ const projects = [
     status: "Live"
   },
   {
-    title: "Quiltforge",
+    title: "Quiltforge™",
     description: "A quilting companion app for designing projects, inventorying fabric, and generating cutting and sewing instructions from start to finish.",
     tech: ["Python", "SQLite"],
     github: "https://github.com/kimah72/Quiltforge",
     status: "In Development"
   },
   {
-    title: "Rooted Upright",
+    title: "Rooted Upright™",
     description: "A houseplant care app for collectors — name your plants, track their care, and print personalized care cards.",
     tech: ["React", "AWS", "DynamoDB"],
     status: "Coming Soon"
