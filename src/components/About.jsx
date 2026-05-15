@@ -1,3 +1,5 @@
+import "./About.css";
+
 function About() {
     return (
         <section id="about">
@@ -17,9 +19,9 @@ function About() {
             </p>
 
             <p>
-                Today I'm a junior at BYU-Idaho studying Web Development fully online while working 
+                Today I'm a junior - almost senior - at BYU-Idaho studying Web Development fully online while working 
                 full-time as a commercial embroiderer. My background in embroidery taught me precision, 
-                quality standards, the patience to get details right and sticking to deadlines— skills that translate 
+                quality standards, the patience to get details right and sticking to deadlines — skills that translate 
                 directly into how I write code and approach problems.
             </p>
 

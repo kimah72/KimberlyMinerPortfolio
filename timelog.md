@@ -38,3 +38,24 @@ Tasks:
 Components: Hero ✅ Nav ✅ FeaturedProjects ✅ ModuleGrid ✅ About ✅ Education ✅ Certificates ⬜ Contact ⬜ Footer ⬜
 Styling: ⬜
 Deployment: ⬜
+
+## Fri May 15, 2026
+Start: 3:18 PM MST
+Stop: 4:23 MST
+Total: 1 hr 5 min
+
+Tasks:
+  - Built Skills.jsx ✅
+  - Built Certificates.jsx ✅
+  - Built Footer.jsx ✅
+  - Updated App.js with all components ✅
+  - Set up per-component CSS file structure ✅
+  - Styled Nav.css ✅
+  - Styled Hero.css ✅
+  - Updated Hero.jsx with two-column layout and SVG graphic ✅
+
+## Project Status
+Components: Hero ✅ Nav ✅ FeaturedProjects ✅ ModuleGrid ✅ About ✅ Education ✅ Skills ✅ Certificates ✅ Footer ✅ Contact ⬜
+Styling: Hero ✅ Nav ✅ FeaturedProjects ⬜ ModuleGrid ⬜ About ⬜ Education ⬜ Skills ⬜ Certificates ⬜ Footer ⬜
+Easter Egg: ⬜
+Deployment: ⬜

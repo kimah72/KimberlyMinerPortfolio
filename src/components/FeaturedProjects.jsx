@@ -1,3 +1,5 @@
+import "./FeaturedProjects.css";
+
 // FeaturedProjects.jsx
 // This component renders the featured projects section
 // Data is stored in an array of objects - adding a new project

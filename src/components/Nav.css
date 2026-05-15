@@ -1,0 +1,37 @@
+/* Nav.css */
+
+#main-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: var(--bg-darker);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid var(--accent);
+}
+
+#main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+#main-nav a {
+    font-family: var(--font-heading);
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-on-dark);
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: color 0.2s ease;
+}
+
+#main-nav a:hover {
+    color: var(--accent);
+}

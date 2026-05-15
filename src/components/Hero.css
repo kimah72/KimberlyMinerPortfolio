@@ -1,0 +1,58 @@
+/* Hero.css */
+#hero {
+    min-height: 100vh;
+    background-color: var(--bg-darker);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6rem 4rem 2rem;
+    gap: 2rem;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+#hero h1 {
+    font-family: var(--font-display);
+    font-size: clamp(3rem, 8vw, 6rem);
+    font-weight: 900;
+    color: var(--text-on-dark);
+    margin: 0 0 1rem;
+    line-height: 1.1;
+}
+
+.hero-tagline {
+    font-family: var(--font-heading);
+    font-size: clamp(1rem, 2vw, 1.3rem);
+    font-weight: 600;
+    color: var(--accent);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.hero-graphic {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    /* animation: slowSpin 20s linear infinite; */
+}
+
+.hero-graphic svg {
+    width: 100%;
+    height: auto;
+}
+
+/* not sure I like the spin so leaving commented */
+
+/* @keyframes slowSpin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+} */

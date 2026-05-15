@@ -1,3 +1,5 @@
+
+
 // src/components/ModuleGrid.jsx
 // This component renders the modules section in a grid layout
 // Data is stored in an array of objects - adding a new module

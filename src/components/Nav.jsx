@@ -1,3 +1,5 @@
+import "./Nav.css";
+
 // Nav.jsx
 // The navigation component sits at the top right of the page
 // It uses an HTML nav element for semantic structure
@@ -10,8 +12,9 @@ function Nav() {
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#certificates">Certificates</a></li>
-                <li><a href="#contact">Contact</a></li>                
+                <li><a href="#education">Education</a></li> 
+                <li><a href="#certificates">Certificates</a></li> 
+                <li><a href="#contact">Contact</a></li>             
             </ul>
         </nav>
     );
