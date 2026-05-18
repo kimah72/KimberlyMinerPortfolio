@@ -16,9 +16,10 @@ function Education() {
                 <ul>
                     <li>Software Testing — pytest, Selenium, GitHub Actions, CI/CD</li>
                     <li>Cloud Foundations — AWS (EC2, Lambda, S3, DynamoDB, Cognito)</li>
-                    <li>Database Management — MySQL, PostgreSQL, Microsoft SQL Server, relational design</li>
-                    <li>Full-Stack Web Development — React, Angular, Node.js, REST APIs, Javascript</li>
-                    <li>Web Apps — CSS, responsive design, component architecture</li>
+                    <li>Database Management — Microsoft SQL Server, relational design</li>
+                    <li>Full-Stack Web Development — React, Angular, Node.js, REST APIs</li>
+                    <li>Web Apps — CSS, SCSS, responsive design, component architecture</li>
+                    <li>JavaScript, MySQL, PostgreSQL</li>
                 </ul>
             </div>
 

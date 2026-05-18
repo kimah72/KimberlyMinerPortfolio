@@ -8,7 +8,7 @@ function About() {
             <p>
                 I'm Kimberly Miner — a developer based in Central Utah. 
                 I build things with intention, whether that's a full-stack web app, an embroidered 
-                design, or a quilt pieced together one block at a time.
+                design, or a quilt — pieced together one block at a time.
             </p>
 
             <p>
@@ -19,7 +19,7 @@ function About() {
             </p>
 
             <p>
-                Today I'm a junior - almost senior - at BYU-Idaho studying Web Development fully online while working 
+                Today I'm a junior at BYU-Idaho studying Software Development fully online while working 
                 full-time as a commercial embroiderer. My background in embroidery taught me precision, 
                 quality standards, the patience to get details right and sticking to deadlines — skills that translate 
                 directly into how I write code and approach problems.
@@ -29,7 +29,7 @@ function About() {
                 I'm drawn to projects that mean something. My apps are built around real needs — 
                 a journal that unlocks memories for the people you love, a tool for quilters who 
                 deserve better software, a plant care app for collectors who name their plants. 
-                I build for humans first.
+                I build for people first.
             </p>
         </section>
     )

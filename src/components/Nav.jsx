@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./Nav.css";
 
 // Nav.jsx
@@ -6,15 +7,31 @@ import "./Nav.css";
 // Each link scrolls smoothly to a section on the page using href="#id"
 
 function Nav() {
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const handleLinkClick = () => {
+        setMenuOpen(false);
+    };
+
     return (
         <nav id="main-nav">
-            <ul>
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li> 
-                <li><a href="#certificates">Certificates</a></li> 
-                <li><a href="#contact">Contact</a></li>             
+            <button
+                className="hamburger"
+                onClick={() => setMenuOpen(!menuOpen)}
+                aria-label="Toggle navigation"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul className={menuOpen ? "nav-links" : "nav-links hidden"}>
+                <li><a href="#hero" onClick={handleLinkClick}>Home</a></li>
+                <li><a href="#projects" onClick={handleLinkClick}>Projects</a></li>
+                <li><a href="#about" onClick={handleLinkClick}>About</a></li>
+                <li><a href="#education" onClick={handleLinkClick}>Education</a></li>
+                <li><a href="#certificates" onClick={handleLinkClick}>Certificates</a></li>
+                <li><a href="#contact" onClick={handleLinkClick}>Contact</a></li>
             </ul>
         </nav>
     );

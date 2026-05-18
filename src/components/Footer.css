@@ -1,0 +1,103 @@
+/* Footer.css */
+footer {
+    background-color: var(--bg-darker);
+    padding: 3rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+    border-top: 1px solid var(--accent);
+}
+
+footer p {
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    color: var(--text-on-dark);
+    margin: 0;
+    opacity: 0.75;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+}
+
+footer a {
+    font-family: var(--font-heading);
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--accent);
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: color 0.2s ease;
+}
+
+footer a:hover {
+    color: var(--accent-dim);
+}
+
+.easter-trigger {
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.easter-trigger:hover {
+    color: var(--accent);
+}
+
+.easter-egg {
+    position: relative;
+    max-width: 500px;
+    background-color: var(--bg-card);
+    border: 1px solid var(--accent);
+    border-radius: 8px;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    animation: fadeIn 0.3s ease;
+}
+
+.easter-reference {
+    font-family: var(--font-heading);
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0 0 1rem;
+}
+
+.easter-text {
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    color: var(--text-on-dark);
+    line-height: 1.8;
+    font-style: italic;
+    margin: 0;
+    opacity: 0.9;
+}
+
+.easter-close {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.75rem;
+    background: none;
+    border: none;
+    color: var(--text-on-dark);
+    font-size: 1.25rem;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.2s ease;
+}
+
+.easter-close:hover {
+    opacity: 1;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}

@@ -1,0 +1,57 @@
+/* Education.css */
+#education {
+    background-color: var(--bg-darker);
+    padding: 5rem 4rem;
+}
+
+#education h2 {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-on-dark);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 3rem;
+}
+
+.education-item {
+    border-left: 3px solid var(--accent);
+    padding-left: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.education-item h3 {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-on-dark);
+    margin: 0 0 0.5rem;
+}
+
+.education-item p {
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    color: var(--text-on-dark);
+    margin: 0;
+    line-height: 1.7;
+    margin: 0 0 0.5rem;
+    opacity: 0.85;
+}
+
+.education-item ul {
+    margin: 0.5rem 0 0;
+    padding-left: 1.25rem;
+}
+
+.education-item li {
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    color: var(--text-on-dark);
+    line-height: 1.8;
+    opacity: 0.85;
+}
+
+.education-item strong {
+    color: var(--accent);
+    font-weight: 600;
+}

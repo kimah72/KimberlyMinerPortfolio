@@ -33,16 +33,20 @@ function FeaturedProjects() {
     return (
         <section id="projects">
             <h2>Featured Projects</h2>
-            {projects.map((project, index) => (
-                <div>
-                    <h3>{project.title}</h3>
-                    <p>{project.description}</p>
-                    <p><strong>Tech Stack:</strong> {project.tech.join(", ")}</p>
-                    {project.github && <p><a href={project.github} target="_blank" rel="noopener noreferrer">GitHub</a></p>}
-                    {project.live && <p><a href={project.live} target="_blank" rel="noopener noreferrer">Live Site</a></p>}
-                    <p><em>Status: {project.status}</em></p>
-                </div>
-            ))}
+            <div className="projects-grid">
+                {projects.map((project, index) => (
+                    <div key={index} className="project-card">
+                        <h3>{project.title}</h3>
+                        <p>{project.description}</p>
+                        <p className="project-tech"><strong>Tech Stack:</strong> {project.tech.join(", ")}</p>
+                        <div className="project-links">
+                            {project.github && <a href={project.github} target="_blank" rel="noopener noreferrer">GitHub</a>}
+                            {project.live && <a href={project.live} target="_blank" rel="noopener noreferrer">Live Site</a>}
+                        </div>
+                        <p className="project-status"><em>Status: {project.status}</em></p>
+                    </div>
+                ))}
+            </div>
         </section>
     )
 }

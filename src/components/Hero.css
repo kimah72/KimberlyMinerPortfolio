@@ -35,10 +35,9 @@
 .hero-graphic {
     flex: 1;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     max-width: 400px;
-    /* animation: slowSpin 20s linear infinite; */
 }
 
 .hero-graphic svg {
@@ -46,13 +45,25 @@
     height: auto;
 }
 
-/* not sure I like the spin so leaving commented */
+@media (max-width: 768px) {
+    #hero {
+        flex-direction: column;
+        padding: 8rem 2rem 3rem;
+        text-align: center;
+        min-height: unset;
+    }
 
-/* @keyframes slowSpin {
-    from {
-        transform: rotate(0deg);
+    .hero-graphic {
+        max-width: 250px;
     }
-    to {
-        transform: rotate(360deg);
+}
+
+@media (max-width: 480px) {
+    #hero {
+        padding: 7rem 1.5rem 2rem;
     }
-} */
+
+    .hero-graphic {
+        max-width: 180px;
+    }
+}

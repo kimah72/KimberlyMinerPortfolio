@@ -1,0 +1,53 @@
+/* Skills.css */
+#skills {
+    background-color: var(--bg-light);
+    padding: 5rem 4rem;
+}
+
+#skills h2 {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-on-light);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 3rem;
+}
+
+.skill-category {
+    margin-bottom: 2rem;
+}
+
+.skill-category h3 {
+    font-family: var(--font-heading);
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--text-on-light);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0 0 0.75rem;
+    opacity: 0.6;
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.skill-tag {
+    font-family: var(--font-heading);
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--color-plum);
+    background-color: var(--bg-light-alt);
+    padding: 0.35rem 0.9rem;
+    border-radius: 20px;
+    letter-spacing: 0.5px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.skill-tag:hover {
+    background-color: var(--color-plum);
+    color: var(--text-on-dark);
+}

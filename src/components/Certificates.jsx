@@ -32,18 +32,20 @@ function Certificates() {
     return (
         <section id="certificates">
             <h2>Certificates</h2>
-            {certificates.map((cert, index) => (
-                <div key={index} className="cert-card">
-                    <h3>{cert.title}</h3>
-                    <p>{cert.issuer}</p>
-                    <p><em>{cert.date}</em></p>
-                    {cert.verify && (
-                        <a href={cert.verify} target="_blank" rel="noopener noreferrer">
-                            Verify on Credly
-                        </a>
-                    )}
-                </div>
-            ))}
+            <div className="cert-grid">
+                {certificates.map((cert, index) => (
+                    <div key={index} className="cert-card">
+                        <h3>{cert.title}</h3>
+                        <p>{cert.issuer}</p>
+                        <p><em>{cert.date}</em></p>
+                        {cert.verify && (
+                            <a href={cert.verify} target="_blank" rel="noopener noreferrer">
+                                Verify on Credly
+                            </a>
+                        )}
+                    </div>
+                ))}
+            </div>
         </section>
     )
 }

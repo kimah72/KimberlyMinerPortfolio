@@ -6,7 +6,9 @@ import About from "./components/About";
 import Education from "./components/Education";
 import Certificates from "./components/Certificates";
 import Skills from "./components/Skills";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+
 
 
 function App() {
@@ -20,8 +22,8 @@ function App() {
       <Education />
       <Certificates />
       <Skills />
+      <Contact />
       <Footer />
-     {/* <Contact /> */}
     </div>
   );
 }

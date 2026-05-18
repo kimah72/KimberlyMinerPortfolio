@@ -3,7 +3,10 @@
 :root {
     /* Colors */
   --color-mint: #B8F0D8;
+  --color-mint-dim: #7ECFAD;
   --color-plum: #3B1F47;
+  --color-plum-mid: #2D1B33;
+  --color-plum-deep: #221426;
   --color-light-1: #F5F0F7;
   --color-light-2: #EDE8F0;
   --color-dark: #1A1020;
@@ -11,9 +14,12 @@
     /* Semantic roles */
   --bg-dark: var(--color-plum);
   --bg-darker: var(--color-dark);
+  --bg-card: var(--color-plum-mid);
+  --bg-card-deep: var(--color-plum-deep);
   --bg-light: var(--color-light-1);
   --bg-light-alt: var(--color-light-2);
   --accent: var(--color-mint);
+  --accent-dim: var(--color-mint-dim);
   --text-on-dark: var(--color-light-1);
   --text-on-light: var(--color-dark);
   --text-accent: var(--color-mint);
@@ -22,6 +28,10 @@
   --font-display: 'Playfair Display', serif;
   --font-heading: 'Poppins', sans-serif;
   --font-body: 'Nunito', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -36,3 +46,15 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
 }
 
+/* Responsive */
+@media (max-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+}

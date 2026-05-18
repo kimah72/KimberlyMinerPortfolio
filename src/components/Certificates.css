@@ -1,0 +1,64 @@
+/* Certificates Styles */
+#certificates {
+    background-color: var(--bg-dark);
+    padding: 5rem 4rem;
+}
+
+#certificates h2 {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-on-dark);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 3rem;
+}
+
+.cert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.cert-card {
+    background-color: var(--bg-card);
+    border-radius: 8px;
+    padding: 2rem;
+    border-top: 3px solid var(--accent);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.cert-card h3 {
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-on-dark);
+    margin: 0;
+}
+
+.cert-card p {
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    color: var(--text-on-dark);
+    margin: 0;
+    opacity: 0.85;
+}
+
+.cert-card a {
+    font-family: var(--font-heading);
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--accent);
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: auto;
+    padding-top: 0.75rem;
+    transition: color 0.2s ease;
+}
+
+.cert-card a:hover {
+    color: var(--accent-dim);
+}
