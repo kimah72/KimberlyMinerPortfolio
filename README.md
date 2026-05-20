@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Kimberly Miner — Developer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A personal portfolio site built with React to showcase my projects, skills, education, and certifications as a software developer. This site represents my journey from hand-coding GeoCities pages in the late 90s to building full-stack applications today.
 
-## Available Scripts
+To run locally:
+```bash
+npm install
+npm start
+```
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
-In the project directory, you can run:
+[Software Demo Video](http://youtube.link.goes.here)
 
-### `npm start`
+# Web Pages
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This is a single-page application (SPA) with smooth scroll navigation between sections:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Hero** — Name, tagline, and an animated SVG graphic. First impression and brand statement.
+- **Featured Projects** — Three highlighted projects (time_and_space™, Quiltforge™, Rooted Upright™) displayed as cards with tech stack, status, and links.
+- **Module Grid** — Six course-based projects mapped to BYU-Idaho curriculum modules, displayed in a responsive card grid.
+- **About** — Personal background, developer origin story, and what drives my work.
+- **Education** — BYU-Idaho degree progress, relevant coursework, and self-taught background.
+- **Certificates** — Professional certificates from BYU-Idaho and AWS, with Credly verification link.
+- **Skills** — Tech stack organized by category (languages, frameworks, databases, tools, concepts) displayed as a tag cloud.
+- **Contact** — Working contact form with validation, honeypot spam protection, and AWS SES/Nodemailer backend integration.
+- **Footer** — GitHub and LinkedIn links, copyright year, and a hidden easter egg.
 
-### `npm test`
+All sections are dynamically rendered from JavaScript data arrays — adding a new project or skill requires only adding an object to the relevant array.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Development Environment
 
-### `npm run build`
+- **React** (Create React App) — component-based UI
+- **CSS** — custom properties (variables), per-component stylesheets, responsive design
+- **React Icons** — icon library for theme toggle
+- **Google Fonts** — Playfair Display, Poppins, Nunito
+- **AWS SES + Nodemailer** — contact form email backend
+- **Git + GitHub** — version control
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Useful Websites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* [React Documentation](https://react.dev)
+* [Google Fonts](https://fonts.google.com)
+* [Coolors](https://coolors.co) — color palette generator
+* [React Icons](https://react-icons.github.io/react-icons)
+* [WAVE Accessibility Tool](https://wave.webaim.org)
+* [Lighthouse](https://developer.chrome.com/docs/lighthouse)
+* [Credly](https://credly.com) — certificate verification
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Future Work
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Complete light/dark theme toggle with full palette redesign for light mode
+* Wire Contact form to AWS SES/Nodemailer backend on deployment
+* Add mint accent to cloud-specific skill tags (AWS, DynamoDB, Cognito)
+* Deploy to kimberlyminer.com as homepage
+* Add professional photo to Hero section
+* Optimize Lighthouse performance score (target 90+)
+* Add resume download button
