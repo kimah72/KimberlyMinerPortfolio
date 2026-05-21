@@ -49,5 +49,4 @@ All sections are dynamically rendered from JavaScript data arrays — adding a n
 # Future Work
 
 * Add mint accent to cloud-specific skill tags (AWS, DynamoDB, Cognito)
-* Optimize Lighthouse SEO score (currently 82, target 90+)
-* Light theme polish
+* Download resume link
