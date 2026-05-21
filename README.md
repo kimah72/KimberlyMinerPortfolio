@@ -9,7 +9,7 @@ npm start
 ```
 Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video] https://youtu.be/opUQCIYhGG8
 
 # Web Pages
 
