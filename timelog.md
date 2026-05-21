@@ -117,3 +117,37 @@ Easter Egg: ✅
 Theme Toggle: ⬜
 Contact Backend: ⬜
 Deployment: ⬜
+
+## Wed May 20, 2026
+Start: 3:50 PM MST
+Stop: 6:36 PM MST
+Total: 2 hrs 46 min
+
+Tasks:
+  - Fixed npm audit --force damage, restored react-scripts ✅
+  - Portfolio deployed to AWS via time_and_space ✅
+  - Contact form wired to SES/Nodemailer ✅
+  - Verified LinkedIn and live links ✅
+  - Site is LIVE at kimberlyminer.com ✅
+
+## Project Status
+Components: ALL ✅
+Styling: ALL ✅
+Responsive: ✅
+Easter Egg: ✅
+Contact Form: ✅
+Deployed: ✅ kimberlyminer.com
+Remaining: README, Video Walkthrough
+
+## Thu May 21, 2026
+Start: 3:16 PM MST
+Stop: 4:24 PM MST
+Total: 1 hr 8 min
+
+Tasks:
+  - Fixed robots.txt and meta description for SEO ✅
+  - Deployed updates to S3, CloudFront invalidation ✅
+  - Lighthouse SEO improved from 82 to 91 ✅
+  - Performance 86 on production ✅
+  - Recorded demo video ✅
+  - Completed README ✅

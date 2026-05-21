@@ -48,7 +48,6 @@ All sections are dynamically rendered from JavaScript data arrays — adding a n
 
 # Future Work
 
-* Complete light/dark theme toggle with full palette redesign for light mode
 * Wire Contact form to AWS SES/Nodemailer backend on deployment
 * Add mint accent to cloud-specific skill tags (AWS, DynamoDB, Cognito)
 * Deploy to kimberlyminer.com as homepage
