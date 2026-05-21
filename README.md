@@ -9,13 +9,13 @@ npm start
 ```
 Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
-[Software Demo Video] https://youtu.be/opUQCIYhGG8
+[Software Demo Video](https://youtu.be/opUQCIYhGG8)
 
 # Web Pages
 
 This is a single-page application (SPA) with smooth scroll navigation between sections:
 
-- **Hero** — Name, tagline, and an animated SVG graphic. First impression and brand statement.
+- **Hero** — Name, tagline, and an SVG graphic. First impression and brand statement.
 - **Featured Projects** — Three highlighted projects (time_and_space™, Quiltforge™, Rooted Upright™) displayed as cards with tech stack, status, and links.
 - **Module Grid** — Six course-based projects mapped to BYU-Idaho curriculum modules, displayed in a responsive card grid.
 - **About** — Personal background, developer origin story, and what drives my work.
@@ -48,9 +48,6 @@ All sections are dynamically rendered from JavaScript data arrays — adding a n
 
 # Future Work
 
-* Wire Contact form to AWS SES/Nodemailer backend on deployment
 * Add mint accent to cloud-specific skill tags (AWS, DynamoDB, Cognito)
-* Deploy to kimberlyminer.com as homepage
-* Add professional photo to Hero section
-* Optimize Lighthouse performance score (target 90+)
-* Add resume download button
+* Optimize Lighthouse SEO score (currently 82, target 90+)
+* Light theme polish
